@@ -1,0 +1,29 @@
+.Menu
+    display: grid
+
+    .Menulist
+        display: grid
+        margin: 5px
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        align-items: center
+        justify-items: center
+        list-style: none
+        .MenulistItem  // Corregido el nombre de clase
+            display: grid
+            margin: 10px
+            border: 10px
+            border-radius: 10px
+            background-color: YellowGreen
+            &:hover
+                background-color: black
+            .MenulistItemlink  // Corregido el nombre de clase
+                text-decoration: none
+                display: grid
+                margin: 5px
+                justify-items: center
+                align-items: center
+
+                &:hover
+                    color: white
+
+

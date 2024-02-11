@@ -1,6 +1,6 @@
 import { Outlet, useNavigation } from "react-router-dom";
 
-
+import "../styles/Base.sass"
 import FOOTER from "../components/FOOTER";
 import HEADER from "../components/HEADER";
 

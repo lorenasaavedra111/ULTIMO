@@ -2,15 +2,31 @@ import React from 'react'
 
 const MENU = () => {
   return (
-    <div>
-      <ul>
-        <li><a href="/">LOGIN</a></li>
-        <li><a href="/INFORMACION">INFORMACION</a></li>
-        <li><a href="/TIPS">TIPS</a></li>
-        <li><a href="/CONTACTO">CONTACTO</a></li>
+    <div className='Menu'>
+      <ul className='Menulist'>
+        <li className='MenulistItem'>
+          <a className='MenulistItemlink' href="/">
+            LOGIN
+          </a>
+        </li>
+        <li className='MenulistItem'>
+          <a className='MenulistItemlink'href="/INFORMACION">
+            INFORMACION
+          </a>
+        </li>
+        <li className='MenulistItem'>
+          <a className='MenulistItemlink'href="/TIPS">
+            TIPS
+          </a>
+        </li>
+        <li className='MenulistItem'>
+          <a className='MenulistItemlink'href="/CONTACTO">
+            CONTACTO
+          </a>
+        </li>
       </ul>
 
-
+      
     </div>
   )
 }
