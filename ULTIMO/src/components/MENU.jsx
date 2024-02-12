@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MENU = () => {
+const Menu = () => {
   return (
     <div className='Menu'>
       <ul className='Menulist'>
@@ -26,9 +26,9 @@ const MENU = () => {
         </li>
       </ul>
 
-      
+
     </div>
   )
 }
 
-export default MENU
+export default Menu;

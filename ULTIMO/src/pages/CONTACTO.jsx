@@ -4,6 +4,12 @@ const CONTACTO = () => {
   return (
     <div>
       <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
       <h1>CONTACTOS</h1>     
       <h2>TELEFONOS</h2>
       <p>3243298696</p>
